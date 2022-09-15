@@ -1,0 +1,31 @@
+/* Navbar */
+.navbar-profile {
+  align-items: center;
+  background: #0c145a;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  font: bold;
+  height: 40px;
+  justify-content: center;
+  text-decoration: none;
+  width: 40px;
+}
+.navbar-profile:hover {
+  color: white;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* Navbar */
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+
+  .navbar .vertical-line {
+    border: 1px solid rgba(231, 234, 245, 1);
+    height: 40px;
+  }
+  /*  */
+}
