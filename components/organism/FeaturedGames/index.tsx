@@ -5,6 +5,7 @@ import GameItem from "../../molekuls/GameItem";
 
 const FeaturedGames = () => {
   const [gameList, setGameList] = useState<any[]>([]);
+  const [loading, setLoading] = useState(false);
   const getFeaturedGameList = useCallback(async () => {
     const data = await getFeaturedGame();
     setGameList(data);
