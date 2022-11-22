@@ -17,6 +17,7 @@ const GameItem = (props: Props) => {
         "featured-game-card position-relative",
         status === "Y" ? "voucher-active" : "voucher-empty",
       ].join(" ")}
+      data-cy={title}
     >
       {status === "N" ? (
         <div>
