@@ -16,7 +16,7 @@ const TopUpItem = (props: Props) => {
   if (type === "desktop") {
     return (
       <div className="pb-50 d-md-block d-none">
-        <h2 className="text-4xl fw-bold color-palette-1 text-start mb-10 mt-10">
+        <h2 className="text-4xl fw-bold color-palette-1 text-start mb-10 mt-10" data-cy="voucher-title">
           {data.name}
         </h2>
         <p className="text-lg color-palette-2 mb-0">
